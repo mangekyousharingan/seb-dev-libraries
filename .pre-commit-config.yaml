@@ -8,4 +8,3 @@ repos:
     -   id: check-json
     -   id: check-toml
     -   id: check-added-large-files
-
