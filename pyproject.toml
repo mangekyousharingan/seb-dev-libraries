@@ -1,10 +1,10 @@
 [tool.poetry]
 name = "seb-dev-libraries"
-version = "0.1.0"
+version = "0.0.1"
 description = "Project to hold development dependencies for other projects"
 authors = ["Sebastian Wdowiarz <wdowiarzsebastian@gmail.com>"]
 readme = "README.md"
-packages = [{include = "seb_dev_libraries"}]
+packages = [{include = "seb-dev-libraries"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
