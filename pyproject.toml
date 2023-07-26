@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "seb-dev-libraries"
-version = "0.1.0"
+version = "0.0.1"
 description = "Project to hold development dependencies for other projects"
 authors = ["Sebastian Wdowiarz <wdowiarzsebastian@gmail.com>"]
 readme = "README.md"
-packages = [{include = "seb_dev_libraries"}]
+packages = [{include = "seb-dev-libraries"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.9"
 pre-commit = "3.3.3"
 pyupgrade = "3.9.0"
 black = "23.7.0"
@@ -41,4 +41,4 @@ target-version = ['py39']
 "Homepage" = "https://github.com/mangekyousharingan/seb-dev-libraries"
 
 [project]
-requires-python = "^3.11"
+requires-python = "^3.9"
