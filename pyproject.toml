@@ -4,7 +4,9 @@ version = "0.0.1"
 description = "Project to hold development dependencies for other projects"
 authors = ["Sebastian Wdowiarz <wdowiarzsebastian@gmail.com>"]
 readme = "README.md"
-packages = [{include = "seb-dev-libraries"}]
+packages = [
+    {include = "seb_dev_libraries"}
+]
 
 [tool.poetry.dependencies]
 python = "^3.9"

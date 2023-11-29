@@ -9,11 +9,11 @@ setuptools.setup(
     author="Seb",
     author_email="wdowiarzsebastian@gmail.com",
     packages=["seb-dev-libraries"],
-    description="Package hold development dependencies.",
+    description="Package to hold development dependencies.",
     long_description=description,
     long_description_content_type="text/markdown",
     url="https://github.com/mangekyousharingan/seb-dev-libraries",
     license='MIT',
-    python_requires='>=3.11',
+    python_requires='>=3.9',
     install_requires=[]
 )
